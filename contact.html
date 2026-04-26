@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shahad's Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="top">
+        <header>
+            <h1>Shahad Abdullah Altulyan</h1>
+            <h2><em>Computer Science Student — Turning Caffeine Into Code Since Day One</em></h2>
+        </header>
+
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Contact Me</h2>
+            <p>I would love to hear from you! Fill out the form below or email me directly at 
+            <a href="mailto:shahadabdallaht0@gmail.com">shahadabdallaht0@gmail.com</a></p>
+
+            <form action="mailto:shahadabdallaht0@gmail.com" method="POST" onsubmit="return validateForm()">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+                </fieldset>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Shahad Abdullah Altulyan | Riyadh, Saudi Arabia</p>
+            <p><a href="mailto:shahadabdallaht0@gmail.com">shahadabdallaht0@gmail.com</a></p>
+            <p><a href="#top">Back to Top</a></p>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>

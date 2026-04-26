@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shahad's Projects</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="top">
+        <header>
+            <h1>Shahad Abdullah Altulyan</h1>
+            <h2><em>Computer Science Student — Turning Caffeine Into Code Since Day One</em></h2>
+        </header>
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>My Projects</h1>
+
+            <article>
+                <h2 class="highlight">Graduation Project — Arabic NLP Emergency Alert System</h2>
+                <p><time datetime="2026-06-01">June 2026</time></p>
+                 <h3>Overview</h3>
+                 <p id="gp-desc" style="display:none">A research-based graduation project focusing on Arabic natural language processing for emergency intent detection on smartwatches.</p>
+                 <button onclick="toggleDesc('gp-desc', this)">Show Description</button>
+                 <h3>What I Did</h3>
+                 <ul>
+                    <li>Built a custom Arabic dataset tailored to emergency scenarios</li>
+                    <li>Performed data cleaning and preprocessing</li>
+                    <li>Trained and evaluated NLP models to identify emergency intents</li>
+                    <li>Worked as part of a team contributing to research and implementation</li>
+                </ul>
+                <figure>
+                    <img src="images/GP.png" alt="Graduation Project NLP Emergency Alert System" width="200" height="200">
+                    <figcaption>Arabic NLP Emergency Alert System for Smartwatches LOGO</figcaption>
+                </figure>
+                <p><a href="https://github.com/shahad030/NLP-model-training" target="_blank">View on GitHub</a></p>
+            </article>
+
+            <article>
+                <h2>Computer Vision — YOLO Safety Equipment Detection</h2>
+                <p><time datetime="2025-12-01">December 2025</time></p>
+                 <h3>Overview</h3>
+                 <p id="yolo-desc" style="display:none">A computer vision project focused on detecting safety equipment of construction workers using two versions of the YOLO model.</p>
+                 <button onclick="toggleDesc('yolo-desc', this)">Show Description</button>
+                 <h3>What I Did</h3>
+                 <ul>
+                    <li>Compared and trained two versions of YOLO — YOLOv5 and YOLOv8</li>
+                    <li>Trained both models on a safety equipment dataset</li>
+                    <li>Evaluated and compared model performance using detection metrics</li>
+                    <li>Identified the most accurate version for real-world safety monitoring</li>
+                </ul>
+                <figure>
+                    <img src="images/YOLO.png" alt="YOLO Safety Equipment Detection" width="500" height="400">
+                    <figcaption>Comparing two YOLO Models For Safety Equipment Detection for Construction Workers</figcaption>
+                </figure>
+                <p><a href="https://github.com/shahad030/Safety-Object-Detection-project" target="_blank">View on GitHub</a></p>
+            </article>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Shahad Abdullah Altulyan | Riyadh, Saudi Arabia</p>
+            <p><a href="mailto:shahadabdallaht0@gmail.com">shahadabdallaht0@gmail.com</a></p>
+            <p><a href="#top">Back to Top</a></p>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
